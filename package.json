@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "18.17.1",
+    "npm": "9.6.7"
+  },
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Farkas Barna",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
