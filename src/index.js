@@ -19,7 +19,7 @@ app.use(passport.initialize())
 if(process.env.NODE_ENV === "production") {
     // server static content
     // npm run build
-    app.use(express.static(path.join(__dirname, "client/build")))
+    app.use(express.static(path.join(__dirname, "../client/build")))
 }
 
 // impoort routes
@@ -29,7 +29,7 @@ const authRoutes = require('./routes/auth')
 app.use( authRoutes)
 
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "client/build/index.html"))
+    res.sendFile(path.join(__dirname, "../client/build/index.html"))
 })
 
 //app start
