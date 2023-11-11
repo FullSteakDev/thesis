@@ -44,7 +44,7 @@ export async function reserveTravelsCustomer(name, departure, destination, date,
 }
 
 export async function removeTravel(Id) {
-    return await axios.delete(`remove-travel/${Id}`)
+    return await axios.delete(`/remove-travel/${Id}`)
 }
 
 
