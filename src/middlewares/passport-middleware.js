@@ -1,6 +1,5 @@
 const passport = require('passport')
 const { Strategy } = require('passport-jwt')
-const { SECRET } = require('../constants')
 require("dotenv").config()
 const db = require('../db')
 
