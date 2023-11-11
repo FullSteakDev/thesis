@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.employee {
+    background-image: url("../../../images/2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .employee-login {
+    background-image: url("../../../images/2.jpg");
+    background-size: cover;
+    position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.employee-box {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+    width: fit-content;
+    height:fit-content;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.project-title {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-deadline {
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 19px;
+}
+  .progress-bar {
+    color: black;
+    height: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 500px;
+  }
+  
+  .progress {
+    background-color: black;
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    width: 0;
+    transition: width 0.5s;
+  }
+
+.employee-box button {
+  background-color: black;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: whitesmoke;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  width: fit-content;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.projects-links button {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+  
+button a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 15px;
+  transition: font-size 0.2s ease-in-out;
+
+}
+
+button:hover{
+  font-size: 16px;
+}
+
+button a:hover{
+  font-size: 16px;
+}
+
+.employee-box h1 {
+  color: black;
+}
+
+.employee-box label {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 24px;
+}
+
+.employee-box input {
+  font-size: 16px;
+  padding: 9px;
+}
+
+.employee-box .error-message {
+  color: black;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.employee-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.employee-routes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.employee-routes-style {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  margin: 15px 50px;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.employee-routes-style:hover {
+  font-size: 24px;
+}
