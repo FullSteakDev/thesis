@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef1a0a18.css",
+    "main.js": "/static/js/main.44718297.js",
+    "static/media/10.jpg": "/static/media/10.029dba6b310b1a9f73fa.jpg",
+    "static/media/manager.jpg": "/static/media/manager.82fa4147efdcac942691.jpg",
+    "static/media/header.jpg": "/static/media/header.99fee7fb253d7674a0ae.jpg",
+    "static/media/3.jpg": "/static/media/3.12bd47c70e6d2ce8f03f.jpg",
+    "static/media/nasa-yZygONrUBe8-unsplash.jpg": "/static/media/nasa-yZygONrUBe8-unsplash.d9ab3f8eeb3bec0cf9ff.jpg",
+    "static/media/homemanagement.jpg": "/static/media/homemanagement.ce1bc343d487e0d73b1d.jpg",
+    "static/media/2.jpg": "/static/media/2.ff74beb7bbc151900472.jpg",
+    "static/media/homecustomer.jpg": "/static/media/homecustomer.2fc1288d5a6c35a20a66.jpg",
+    "static/media/11.jpg": "/static/media/11.fc6bb95311ebaaffb66f.jpg",
+    "static/media/homeemployee.jpg": "/static/media/homeemployee.ef037720273e50498952.jpg",
+    "static/media/7.jpg": "/static/media/7.515f650fc0370e4de762.jpg",
+    "static/media/vehicles.jpeg": "/static/media/vehicles.9e1046b5cfdaf412d349.jpeg",
+    "static/media/1.jpg": "/static/media/1.7a8ece2114f1ed2cebeb.jpg",
+    "static/media/4.jpg": "/static/media/4.388dcf40639c0e173e71.jpg",
+    "static/media/8.jpg": "/static/media/8.7646b87115ddfa95cefd.jpg",
+    "static/media/6.jpg": "/static/media/6.24a57a2e229fde0d57da.jpg",
+    "static/media/12.jpg": "/static/media/12.690467dff91971df403b.jpg",
+    "static/media/5.jpg": "/static/media/5.f3764b35a5ff6645e5cd.jpg",
+    "static/media/1.1.jpg": "/static/media/1.1.b006459a274ed1fba01a.jpg",
+    "static/media/9.jpg": "/static/media/9.65a226189cb582236e37.jpg",
+    "static/media/4.4.jpg": "/static/media/4.4.0db1be5d258b3568a6b5.jpg",
+    "static/media/5.5.jpg": "/static/media/5.5.223ac93b56c68ca948bf.jpg",
+    "static/media/6.6.jpg": "/static/media/6.6.bae2045bcb6a42d60372.jpg",
+    "static/media/3.3.jpg": "/static/media/3.3.ac2c4d43249392b28ca8.jpg",
+    "static/media/2.2.jpg": "/static/media/2.2.21e5277cabab95f001cb.jpg",
+    "index.html": "/index.html",
+    "main.ef1a0a18.css.map": "/static/css/main.ef1a0a18.css.map",
+    "main.44718297.js.map": "/static/js/main.44718297.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef1a0a18.css",
+    "static/js/main.44718297.js"
+  ]
+}
