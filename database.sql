@@ -1,3 +1,5 @@
+-- cat database.sql | heroku pg:psql -a <heroku-app-name> (command that copies all datas from this file to the heroku addon)
+
 -- customers table
 CREATE TABLE customers (
     customer_id SERIAL PRIMARY KEY,
@@ -5,14 +7,7 @@ CREATE TABLE customers (
     last_name VARCHAR(255) NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL,
     password_hash VARCHAR(255),
-    phone_number VARCHAR(20),
-    address VARCHAR(255),
-    city VARCHAR(100),
-    state VARCHAR(100),
-    postal_code VARCHAR(20),
-    country VARCHAR(100),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    role_id INT DEFAULT 1
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 -- management table
@@ -22,11 +17,6 @@ CREATE TABLE management (
     last_name VARCHAR(255) NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL,
     password_hash VARCHAR(255),
-    phone_number VARCHAR(20),
-    department VARCHAR(255),
-    office_location VARCHAR(255),
-    start_date DATE,
-    role_id INT DEFAULT 3
 );
 
 -- emlployees table
@@ -36,13 +26,9 @@ CREATE TABLE employee (
     last_name VARCHAR(255) NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL,
     password_hash VARCHAR(255),
-    phone_number VARCHAR(20),
-    address VARCHAR(255),
-    city VARCHAR(100),
-    postal_code VARCHAR(20),
-    country VARCHAR(100),
-    hire_date DATE,
-    job_title VARCHAR(255),
+    hire_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    employee_level VARCHAR(255),
+    image VARCHAR(255),
     manager_relation INT
 );
 
@@ -53,18 +39,19 @@ CREATE TABLE projects (
   title VARCHAR(30),
   progress INT,
   date VARCHAR(300),
-  deadline VARCHAR(100)
+  deadline VARCHAR(100),
+  manager_relation INT
 );
 
 -- propeerties that managers can create, read, modify, delete
-CREATE TABLE properties {
+CREATE TABLE properties (
     id SERIAL PRIMARY KEY,
     name VARCHAR(30),
     state VARCHAR(30),
     amortisation INT,
-    age TINYINT,
+    age INT,
     role INT -- 1: tools, 2: equipments, 3: vehicles
-};
+);
 
 CREATE TABLE products (
     id SERIAL PRIMARY KEY,
