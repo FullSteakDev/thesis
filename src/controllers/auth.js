@@ -9,7 +9,9 @@ exports.registerCustomers = async (req,res) => {
     try {
         const hashedPassword = await hash(password, 10)
 
-        await db.query('insert into customers(email, password_hash, first_name, last_name) values ($1, $2, $3, $4)', [email, hashedPassword, first_name, last_name])
+        await db.query
+        ('insert into customers(email, password_hash, first_name, last_name) values ($1, $2, $3, $4)', 
+        [email, hashedPassword, first_name, last_name])
 
         return res.status(201).json({
             success: true,
