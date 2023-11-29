@@ -16,11 +16,11 @@ app.use(cookieParser())
 app.use(cors({ origin: CLIENT_URL, credentials: true }))
 app.use(passport.initialize())
 
-if(process.env.NODE_ENV === "production") {
+/* if(process.env.NODE_ENV === "production") {
     // server static content
     // npm run build
     app.use(express.static(path.join(__dirname, "../client/build")))
-}
+} */
 
 // impoort routes
 const authRoutes = require('./routes/auth')
