@@ -1,0 +1,3 @@
+This repository contains the source code for a web application developed for a thesis project.
+
+The project consists of a Node.js based backend (located in server.js and src) and a frontend interface housed in the client directory. Data management is handled by an SQL database, with the schema structure provided in the database.sql file. To launch the system, required packages must be installed via npm install, followed by the configuration of the database connection. The primary goal of this development is to demonstrate the practical implementation of the features and technologies discussed in the thesis.
